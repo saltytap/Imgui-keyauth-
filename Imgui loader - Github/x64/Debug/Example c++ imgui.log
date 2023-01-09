@@ -1,0 +1,35 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(90,69): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [10]' to 'LPCWSTR'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(90,85): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(269,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(90,69): message : while trying to match the argument list '(const char [10])'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(107,114): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(151,119): error C2440: 'initializing': cannot convert from 'const char [6]' to 'LPCWSTR'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(151,119): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(153,17): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 3 from 'const char [6]' to 'LPCWSTR'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(153,17): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : see declaration of 'CreateWindowExW'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(153,17): message : while trying to match the argument list '(long, LPCWSTR, const char [6], unsigned long, int, int, int, int, int, int, HINSTANCE, int)'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(304,30): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(304,42): error C2039: 'remove_all': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\future(37,1): message : see declaration of 'std'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(304,52): error C3861: 'remove_all': identifier not found
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(368,34): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(368,46): error C2039: 'create_directory': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\future(37,1): message : see declaration of 'std'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(368,62): error C3861: 'create_directory': identifier not found
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(396,34): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(396,46): error C2039: 'create_directory': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\future(37,1): message : see declaration of 'std'
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(396,62): error C3861: 'create_directory': identifier not found
+C:\Users\Kasper\Desktop\KeyAuth-Imgui-key-Login-main\main.cpp(330,75): warning C4390: ';': empty controlled statement found; is this the intent?
+  Source.cpp
+  Generating Code...

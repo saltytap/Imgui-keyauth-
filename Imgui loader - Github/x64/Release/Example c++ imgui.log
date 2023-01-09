@@ -1,0 +1,21 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Example c++ imgui.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+C:\Users\Kasper\Desktop\C++\Imgui loader - Github\main.cpp(109,114): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+  Source.cpp
+  imgui.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+C:\Users\admin\Downloads\KeyAuthLibs\KeyAuthLibrary64\nlohmann\detail\iterators\iter_impl.hpp(304): warning C4715: 'nlohmann::detail::iter_impl<nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > > >::operator->': not all control paths return a value
+C:\Users\admin\Downloads\KeyAuthLibs\KeyAuthLibrary64\utils.cpp(11): warning C4715: 'utils::get_hwid': not all control paths return a value
+C:\Users\admin\Downloads\KeyAuthLibs\KeyAuthLibrary64\nlohmann\json.hpp(3691): warning C4715: 'nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > >::operator[]<char const >': not all control paths return a value
+C:\Users\admin\Downloads\KeyAuthLibs\KeyAuthLibrary64\nlohmann\json.hpp(3525): warning C4715: 'nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > >::operator[]': not all control paths return a value
+  Finished generating code
+library_x64.lib(auth.obj) : warning LNK4099: PDB 'library_x64.pdb' was not found with 'library_x64.lib(auth.obj)' or at 'C:\Users\Kasper\Desktop\C++\Imgui loader - Github\x64\Release\library_x64.pdb'; linking object as if no debug info
+library_x64.lib(utils.obj) : warning LNK4099: PDB 'library_x64.pdb' was not found with 'library_x64.lib(utils.obj)' or at 'C:\Users\Kasper\Desktop\C++\Imgui loader - Github\x64\Release\library_x64.pdb'; linking object as if no debug info
+  Example c++ imgui.vcxproj -> C:\Users\Kasper\Desktop\C++\Imgui loader - Github\x64\Release\Panama loader.exe
